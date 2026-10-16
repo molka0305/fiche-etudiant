@@ -8,12 +8,12 @@
 <body>
 
 <?php
-$nom = "Molka Touihri";
-$filiere = "Informatique";
-$annee = "2ème année prépa intégrée";
-$moyenne = 16.14;
-$mention = "Bien";
-$rang = "2ème";
+$nom = "Maram Rajhi";
+$filiere = "Management";
+$annee = "3 ème année";
+$moyenne = 13.30;
+$mention = "Assez Bien";
+$rang = "11ème";
 $statut = "Admis(e)";
 $bourse = "🎓 Boursier";
 ?>
