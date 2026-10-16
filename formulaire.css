@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Pacifico&display=swap');
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: linear-gradient(135deg, #ffd1e8, #e8d5ff, #ffe4f1);
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.student-card {
+    background-color: #fffafc;
+    padding: 30px 25px;
+    margin: 50px auto;
+    width: 350px;
+    border-radius: 25px;
+    border: 3px solid #ffb6d9;
+    box-shadow: 0 10px 30px rgba(255, 105, 180, 0.3);
+    position: relative;
+}
+
+.student-card::before {
+    content: "🌸";
+    position: absolute;
+    top: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 36px;
+    background: #fffafc;
+    border-radius: 50%;
+    padding: 0 8px;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    color: #ff4fa3;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 0 #ffe0f0;
+}
+
+.info {
+    font-size: 16px;
+    color: #5a3e55;
+    margin-top: 12px;
+    padding: 10px 14px;
+    background-color: #fff0f7;
+    border-left: 5px solid #ff8cc6;
+    border-radius: 12px;
+}
+
+.info strong {
+    color: #d63384;
+}
+
+/* Dernière ligne (Boursier) en petit badge */
+.info:last-child {
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(90deg, #ff8cc6, #c58bff);
+    border-left: none;
+    border-radius: 50px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(197, 139, 255, 0.4);
+}
